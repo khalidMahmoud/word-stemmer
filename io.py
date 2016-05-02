@@ -62,6 +62,7 @@ def deleteSuffix(word):
                 word = word.replace(suff, "")
     return word
 #end deletesuffixes
+#end deletesuffixes
 @pyqtSlot()
 def on_click():
     commingWord = str(textBox.text())
